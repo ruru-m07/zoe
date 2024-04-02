@@ -35,7 +35,7 @@ export default function Home() {
   // Scroll to bottom when chatHistory changes
   React.useEffect(() => {
     scrollToBottom();
-  }, [chatHistory, message]);
+  }, [chatHistory]);
 
   const handelSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

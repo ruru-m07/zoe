@@ -30,13 +30,13 @@ export const zoe = async ({
     // required, which model to use to generate the result
     model: MODEL,
     // optional, 0.0 always uses the highest-probability result
-    temperature: 0.9,
+    temperature: 0.1,
     // optional, how many candidate results to generate
     candidateCount: 1,
     // optional, number of most probable tokens to consider for generation
-    topK: 1,
+    topK: 10,
     // optional, for nucleus sampling decoding strategy
-    topP: 1,
+    topP: 0.25,
     prompt: {
       // optional, sent on every request and prioritized over history
       context: context,
