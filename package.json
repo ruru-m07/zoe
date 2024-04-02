@@ -2,6 +2,7 @@
   "name": "zoe",
   "version": "0.1.0",
   "private": true,
+  "author": "rutvik movaliya",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@google-ai/generativelanguage": "^2.1.1",
+    "@google/generative-ai": "^0.3.1",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-aspect-ratio": "^1.0.3",
     "@radix-ui/react-avatar": "^1.0.4",
@@ -30,7 +31,6 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^1.0.0",
-    "google-auth-library": "^9.7.0",
     "lucide-react": "^0.364.0",
     "next": "14.1.4",
     "next-themes": "^0.3.0",
